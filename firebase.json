@@ -1,0 +1,33 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "auth": {
+      "port": 4001
+    },
+    "functions": {
+      "port": 4002
+    },
+    "firestore": {
+      "port": 4003
+    },
+    "database": {
+      "port": 4004
+    },
+    "storage": {
+      "port": 4005
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    }
+  }
+}
